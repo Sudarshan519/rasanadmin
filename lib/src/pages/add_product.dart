@@ -165,7 +165,7 @@ class ProductUpload extends GetView {
                   onPressed: () {
              //       if (_formKey.currentState.validate()) {
                       ProductModel user = ProductModel(
-                          name: name.text,
+                          productName: name.text,
                           
                           // phone: phone.text,
                           // email: email.text,
